@@ -26,13 +26,26 @@ It's an early playtest build made by two friends, so expect rough edges.
 
 ## Download and play
 
+### Windows
 **Download:** https://github.com/mendezm87/bixi-soup-builds/releases/latest/download/BixiSoup-playtest.zip
 
 1. Unzip it anywhere (don't run it from inside the zip). Keep `BixiSoup.pck` next to `BixiSoup.exe`.
 2. Double-click `BixiSoup.exe`.
 3. Windows may warn that the game isn't recognised: it's a new, unsigned test build. Click **More info**, then **Run anyway**.
 
-Have Steam running to play with friends. New to it? Start with **Training Shift** on the main menu.
+### Mac
+**Download:** https://github.com/mendezm87/bixi-soup-builds/releases/latest/download/BixiSoup-mac.zip
+
+For Apple Silicon (M1 and newer) and Intel Macs, macOS 11 or newer. The Mac version is brand new, so tell us (F8) how it goes.
+
+1. Unzip it and drag **There's a Bixi in My Soup** to your Applications folder.
+2. The first time, **right-click** (or Control-click) the app, choose **Open**, then **Open** again. After that, open it normally.
+3. If macOS says it "can't be opened" or "is damaged": go to **System Settings > Privacy & Security**, scroll down and click **Open Anyway**. Still stuck? In Terminal, run
+   `xattr -dr com.apple.quarantine "/Applications/There's a Bixi in My Soup.app"` and open it again.
+4. Allow the microphone when it asks: that's for voice chat.
+
+### Both
+Have Steam running to play with friends (Mac and Windows players should be able to play together). New to it? Start with **Training Shift** on the main menu.
 
 What changed in each build is on the [release page](https://github.com/mendezm87/bixi-soup-builds/releases/latest).
 
