@@ -39,8 +39,8 @@ It's an early playtest build made by two friends, so expect rough edges.
 For Apple Silicon (M1 and newer) and Intel Macs, macOS 11 or newer. The Mac version is brand new, so tell us (F8) how it goes.
 
 1. Unzip it and drag **There's a Bixi in My Soup** to your Applications folder.
-2. The first time, **right-click** (or Control-click) the app, choose **Open**, then **Open** again. After that, open it normally.
-3. If macOS says it "can't be opened" or "is damaged": go to **System Settings > Privacy & Security**, scroll down and click **Open Anyway**. Still stuck? In Terminal, run
+2. The first time, macOS says it "could not verify" the game. Click **Done** (not Move to Trash), then go to **System Settings > Privacy & Security**, scroll down and click **Open Anyway** (it asks for your Mac password). Open the game again and click **Open**. After that it opens normally.
+3. No Open Anyway button? In Terminal, run
    `xattr -dr com.apple.quarantine "/Applications/There's a Bixi in My Soup.app"` and open it again.
 4. Allow the microphone when it asks: that's for voice chat.
 
